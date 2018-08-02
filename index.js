@@ -1,8 +1,8 @@
 var recipes = {};
 
 function updateObjectWithKeyAndValue(object, key, value){
-  if (object[artist] != undefined){
-    playlist[artist].push(song)
+  if (object[key] != undefined){
+    object[key].push(value)
   }else{
     playlist[artist] = [song]
   }
