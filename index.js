@@ -6,7 +6,7 @@ function updateObjectWithKeyAndValue(object, key, value){
   }else{
     object[key] = [value]
   }
-  return playlist
+  return object
 }
 
 
